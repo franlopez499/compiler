@@ -1,0 +1,16 @@
+func main ()
+{
+const a=6,b=2;
+var x,y=7*b-(a*4)/2,z; //y=2.
+/* Comprueba sentencias
+y expresiones */
+while (y)
+	{
+                x=a+2*b;
+                if (x+1) print "x vale ", x," e y ",y,"\n"; // x vale 10.
+                if ((x-b*5)/100) print "Esto no va bien","\n";
+                else { print "Introduce valores de x y z:\n"; read x,z; print 3-y,"; Debe salir (x+z)*100:", (x+z)*100,"\n";}
+                y=y-1; 
+        }
+}
+

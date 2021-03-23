@@ -1,0 +1,15 @@
+func main(){
+
+var a = 20 , b=10;
+while (a){
+	a=a-b;
+	print a,"\n";
+}
+if(a)
+	print "a es 0";
+else a = 0;
+
+print "Esto es el Final\n";
+
+
+}
